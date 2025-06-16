@@ -1,2 +1,29 @@
-# Work-and-Break-Countdown
-🕒 A simple Python tkinter app to show countdowns to work start, lunch break, and end of day.
+# 🕒 Work-and-Break-Countdown
+
+一個簡單的 Python 倒數計時小工具，使用 `tkinter` 製作圖形介面，幫助你清楚掌握每天的工作節奏：
+
+- ⏰ 上班倒數（09:00）
+- 🍱 午休開始倒數（12:00）
+- 🔔 午休結束倒數（13:30）
+- 🏁 下班倒數（17:30）
+
+根據目前時間，自動顯示最相關的倒數資訊。
+
+---
+
+## 📌 功能特色
+
+- 根據時間自動切換倒數目標（上班、午休、下班）
+- 每秒自動更新倒數時間
+- 精簡直覺的 GUI 介面
+- 支援 macOS / Windows，只需 Python 和 tkinter
+
+---
+
+## 🛠️ 環境需求
+
+- Python 3.11 或以上版本
+- tkinter（macOS 用戶如遇錯誤，可使用以下指令安裝）：
+
+```bash
+brew install python-tk@3.11
